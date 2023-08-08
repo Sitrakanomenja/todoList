@@ -1,0 +1,99 @@
+/* body{
+    background: rgb(233, 192, 116);
+} */
+.container{
+    background:wheat;
+    width:50%;
+    height: 100vh;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+header{
+    background: orange;
+    width:100% ;
+    height: 180px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.boite-list{
+    text-align: center;
+    margin-left: 75px;
+    display: block;
+    background: white;
+    height: 200px;
+    width: 80%;
+    border-radius: 20px;
+}
+.input-boite{
+    margin-top: 50px;
+    padding: 7px;
+    width: 60%;
+    border: 4px 6px 8px 9px;
+}
+.btn-boite{
+    margin-top: 40px;
+    padding: 10px 40px 10px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background: orange;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.btn-boite:hover{
+    background: orangered;
+    color: black;
+    margin-top: 35px;
+}
+.boite-list2{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 75px;
+    display: block;
+    background: white;;
+    width: 80%;
+    border-radius: 20px;
+}
+table{
+    margin-left: 90px;
+}
+
+
+i{
+    color: black;
+    margin-right: 100px;
+}
+.item-modify{
+    margin-left: 100px;
+}
+@media (max-width: 600px) {
+    body{
+        background: red;
+    }
+    .container{
+        width:100%;
+        height: 100vh;
+        margin-left: 0px;
+        
+    }
+     .boite-list{
+        margin-left: 20px;
+        margin-right: 15px;
+        height: 200px;
+        width: 90%;
+        
+    } 
+    .boite-list2{
+        margin-left: 20px;
+        margin-right: 15px;
+        width: 90%;
+    }
+    table{
+        margin-left: 20px;
+    }
+    i{
+        margin-right: 20px;
+    }
+}
